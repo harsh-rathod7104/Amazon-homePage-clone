@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+
+}
+
+.nav-logo {
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.nav-address{
+    padding: 8px;
+}
+.add-first{
+    color: #cccccc; 
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+ outline: 3.5px solid #f3a847;
+}
+.search-select{
+    border-radius: 4px 0px 0px 4px ;
+    background-color: #f3f3f3;
+    width: 50px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2ren;
+    background-color: #f3a847;
+    width: 45px;
+    border-radius:0px 4px 4px 0px;
+    color: #0f1111;
+
+}
+
+/* box 4 */
+.sign-in{
+    padding: 8px;
+}
+span{
+    font-size: 0.80rem;
+}
+
+.nav-sec{
+    font-size: 0.85rem ;
+    font-weight: 700;
+}
+.return{
+    padding: 8px;
+}
+
+/* box  6*/
+.nav-cart{
+    padding: 8px;
+}
+.nav-cart i{
+    font-size: 35px;
+}
+
+.nav-cart span{
+    font-size: 0.85rem;
+}
+
+
+/* panel*/
+
+.panel{
+    
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex ;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel .panel-ops{
+    width: 70%;
+    /* font-size: 0.85rem; */
+
+}
+.panel .panel-ops a{
+    color: white;
+    font-size: 0.90rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.panel .panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem ;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/GW/0-PC_Hero_2x._CB594150943_.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+
+}
+.hero-section{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.hero-msg{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    height: 40xp;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.hero-msg p a{
+    color: rgb(22, 84, 135);
+    text-decoration: none;
+}
+
+
+/* Shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6 ;
+    flex-wrap: wrap;
+    
+}
+.box{
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 1rem 0 1rem 0;
+ 
+}
+.box-content{
+    margin:0 1rem 0 1rem ;
+}
+.box-content p{
+    color: #007185;
+}
+
+/* Footer section */
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.foot-panel1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-panel2{
+    height:50vh;
+    background-color: #232F3E;
+    display: flex;
+    padding-top: 40px;
+    justify-content:space-evenly;
+}
+.foot-panel2 ul li a{
+    text-decoration: none;
+    /* color: white; */
+    color:rgba(255, 255, 255, 0.788);
+}
+
+.foot-panel2 ul{
+    list-style: none;
+}
+
+.foot-panel2 ul li{
+    margin-bottom: 5px;
+}
+
+ul li:nth-child(1){
+    padding-bottom: 20px;
+    color: white;
+}
